@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.1/dist/cyborg/bootstrap.min.css">
+    <title>Cloudinary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="offset-lg-3 offset-md-1 col-lg-6 col-md-10 col-sm-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="tipos-de-pitbull.png" class="img-fluid" alt="" id="imagen">
+                        <div class="my-2">
+                            <input type="file" name="entrada" id="entrada" class="btn btn-primary" >
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" id="img-upload">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
